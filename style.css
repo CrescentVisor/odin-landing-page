@@ -1,22 +1,123 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
-li,.secondary-text{
+.header-text{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.main-text{
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+a,.secondary-text{
     font-size: 18px;
     color: #E5E7EB;
 }
 
-
+ul, a{
+    list-style-type: none;
+    text-decoration: none;
+}
 
 .section1, .footer{
     background-color: #1F2937;
 }
 
+.section1{
+    display:flex;
+    flex-direction: column;
+    padding: 0 200px 150px 200px;
+}
+
+.subsection1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header-link-text{
+    display: flex;
+    gap: 20px;
+}
+
+.subsection1-2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subsection1-2 img{
+    height: auto;
+    width:500px;
+}
+
+.sign-up{ 
+    height: auto;
+    width: 120px;
+    padding: 8px 25px;
+    border-radius: 8px;
+    background-color:#3882F6;
+    color: #E5E7EB;
+    border-style: none;
+    font-size:18px;
+    font-weight: bold;
+    text-align: center;
+}
+.subsection1-2a{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+.subsection1-2b{
+    display:flex;
+    
+}
+
+.section2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 175px;
+    
+}
+
+.container img{
+    height:auto;
+    width: 300px;
+}
+.section2-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+.subsection2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px; 
+    padding: 0 100px;
+}
+
+
+
 .section3{
     display:flex;
     background-color: #E5E7EB;
+    justify-content: center;
 }
 
 .subsection3{
@@ -26,15 +127,32 @@ li,.secondary-text{
     color:#1F2937;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    
+    padding: 100px; 
+}
+
+.subsection3 div{
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    margin: 0;  
+}
+
+.subsection3 p{
+    margin:0;
+}
+
+.subsection3 strong{
+    display:flex;
+    font-size: 25px;
+    margin-top: 0;
+    padding: 0;
+    justify-content: flex-end;
 }
 
 .section4{
     display: flex;
     justify-content: center;
     padding: 100px;
-    
 }
 
 .section4 button{
@@ -47,7 +165,6 @@ li,.secondary-text{
     border-style: solid;
     font-weight: bold;
     font-size: 18px;
-
 }
 .subsection4{
     display: flex;
@@ -58,7 +175,7 @@ li,.secondary-text{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    gap: 150px;
+    gap: 210px;
 }
 
 .subsection4 p{
